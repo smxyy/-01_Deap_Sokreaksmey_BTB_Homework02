@@ -158,7 +158,7 @@ public class Main {
                                 }
                                 break;
                             case 2:
-                                answer = Helper.inputChar("Are you sure you want to delete this account: ");
+                                answer = Helper.inputChar("Are you sure you want to delete this account? (y/n): ");
                                 if (answer == 'y') {
                                     int flag = savings.transfer(savings.getBalance(), checkings, true);
                                     if (flag == 1) {
